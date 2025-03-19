@@ -22,14 +22,17 @@ Useful when you're researching online, capturing snippets of information, or sim
 
 2. Install the required dependencies:
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 3. Set up Ollama and ensure the gemma-1b model is pulled.
 
 4. Run the application:
 
-`python app/main.py`
-
+```
+python app/main.py`
+```
 
 🖥️ Example Workflow
 
@@ -39,19 +42,11 @@ Useful when you're researching online, capturing snippets of information, or sim
 4. The extracted text is summarized using AI.
 5. The summary is saved as a .txt file in your output directory.
 
-Folders in Desktop
-
-<img width="100" alt="Screenshot 2025-03-18 at 11 33 33 PM" src="https://github.com/user-attachments/assets/19bc5763-d897-4707-bb4b-34aadfc805d2" />
-
-Logs:
-
-<img width="400" alt="Screenshot 2025-03-18 at 11 34 13 PM" src="https://github.com/user-attachments/assets/9f720dda-ceb0-4ca7-9017-1d4f69e2090f" />
-
-Screenshot:
+### Screenshot (of code from this repo)
 
 <img width="400" alt="Screenshot 2025-03-18 at 10 45 36 PM" src="https://github.com/user-attachments/assets/253632fc-45f3-4ca1-98ce-140d6c2c7b24" />
 
-Summary of a screenshot of code from this repo:
+### Summary of the screenshot
 
 <img width="400" alt="Screenshot 2025-03-18 at 11 34 42 PM" src="https://github.com/user-attachments/assets/1d9af167-6881-47b4-96d8-57fad945e5da" />
 
