@@ -6,22 +6,12 @@ Useful when you're researching online, capturing snippets of information, or sim
 
 ---
 
-## Features
-
-- **Automatic Screenshot Monitoring**: Watches a specified directory for new screenshots in real-time.
-- **OCR Text Extraction**: Uses [EasyOCR](https://github.com/JaidedAI/EasyOCR) to extract text from images with high accuracy.
-- **AI-Powered Summarization**: Summarizes extracted text using the `gemma-1b` model from Ollama for concise and meaningful notes.
-- **Seamless Note Saving**: Saves the summarized text as a `.txt` file in your chosen output directory.
-- **Time-Saving Workflow**: Perfect for researchers, students, and professionals who frequently take screenshots for note-taking.
-
----
-
 ## How It Works
 
 1. **Set Up the Watch Directory**: Specify the folder where your screenshots are saved (e.g., `~/Desktop/screenshots`).
 2. **Monitor for New Screenshots**: SnapSummarize continuously watches the directory for new files.
 3. **Extract Text**: When a new screenshot is detected, the app uses OCR to extract text from the image.
-4. **Summarize the Text**: The extracted text is summarized using the `gemma-1b` model. (run ollama pull if you do not have the model)
+4. **Summarize the Text**: The extracted text is summarized using the `gemma-1b` model.
 5. **Save the Summary**: The summarized text is saved as a `.txt` file in your output directory (e.g., `~/Desktop/screenshot_notes`).
 
 ---
@@ -34,7 +24,7 @@ Useful when you're researching online, capturing snippets of information, or sim
 
 `pip install -r requirements.txt`
 
-3. Set up Ollama and ensure the gemma-1b model is installed.
+3. Set up Ollama and ensure the gemma-1b model is pulled.
 
 4. Run the application:
 
@@ -48,3 +38,22 @@ Useful when you're researching online, capturing snippets of information, or sim
 3. The app extracts text from the image using OCR.
 4. The extracted text is summarized using AI.
 5. The summary is saved as a .txt file in your output directory.
+
+Folders in Desktop
+
+<img width="100" alt="Screenshot 2025-03-18 at 11 33 33 PM" src="https://github.com/user-attachments/assets/19bc5763-d897-4707-bb4b-34aadfc805d2" />
+
+Logs:
+
+<img width="400" alt="Screenshot 2025-03-18 at 11 34 13 PM" src="https://github.com/user-attachments/assets/9f720dda-ceb0-4ca7-9017-1d4f69e2090f" />
+
+Screenshot:
+
+<img width="400" alt="Screenshot 2025-03-18 at 10 45 36 PM" src="https://github.com/user-attachments/assets/253632fc-45f3-4ca1-98ce-140d6c2c7b24" />
+
+Summary of a screenshot of code from this repo:
+
+<img width="400" alt="Screenshot 2025-03-18 at 11 34 42 PM" src="https://github.com/user-attachments/assets/1d9af167-6881-47b4-96d8-57fad945e5da" />
+
+
+
